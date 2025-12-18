@@ -30,3 +30,41 @@
   margin: 0px 0px 100px;
   text-align: center;
 }
+
+.menu__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+}
+
+.menu__card {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__card_title {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0px 0px 32px;
+}
+
+.menu__card_list-item {
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 16px 0px;
+  display: flex;
+  width: 100%;
+}
+
+.menu__card_list-divider {
+  flex-grow: 3;
+  border-bottom: 1px solid #000000;
+}
