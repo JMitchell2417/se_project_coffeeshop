@@ -38,12 +38,6 @@
   justify-content: center;
 }
 
-.menu__card {
-  width: 540px;
-  display: flex;
-  flex-direction: column;
-}
-
 .menu__card_title {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
