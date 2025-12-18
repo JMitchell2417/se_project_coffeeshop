@@ -10,33 +10,6 @@
   padding: 30px 80px 40px 80px;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.nav__links {
-  display: flex;
-  gap: 20px;
-}
-
-.nav__link {
-  text-decoration: none;
-  color: #000000;
-}
-
-.nav__logo {
-  height: 39px;
-  width: 105px;
-  position: relative;
-  left: -50px;
-}
-
 .header__title {
   max-width: 729px;
   margin: 183px 0 28px;
