@@ -29,11 +29,6 @@
   gap: 16px;
 }
 
-.footer__list-item {
-  display: flex;
-  gap: 10px;
-}
-
 .footer__social-icon {
   height: 16px;
   width: 16px;
@@ -48,6 +43,8 @@
   text-decoration: none;
   color: #ffffff;
   transition: opacity 300ms;
+  display: flex;
+  gap: 10px;
 }
 
 .footer__social-link:hover {

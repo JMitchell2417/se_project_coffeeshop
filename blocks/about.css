@@ -1,6 +1,6 @@
 .about {
   background-color: #0a2850;
-  padding: 100px 80px;
+  padding: 100px 80px 173px;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -19,16 +19,20 @@
 }
 
 .about__content {
-  font-family: "Noto Serif", "Times New Roman", Times, serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
   color: #ffffff;
   max-width: 660px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin: 19px 0px 0;
+}
+
+.about__paragraph {
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .about__circle {
