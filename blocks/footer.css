@@ -47,6 +47,11 @@
   line-height: 20px;
   text-decoration: none;
   color: #ffffff;
+  transition: opacity 300ms;
+}
+
+.footer__social-link:hover {
+  opacity: 70%;
 }
 
 .footer__copyright {

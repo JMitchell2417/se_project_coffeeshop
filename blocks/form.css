@@ -44,7 +44,7 @@
   background-color: #1878dc;
   color: #ffffff;
   border: none;
-  transition: 200ms;
+  transition: background 300ms;
   display: block;
   width: 100%;
   margin: 0 auto;
